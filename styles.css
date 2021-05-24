@@ -1,0 +1,219 @@
+/* ****************** tags ********************** */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ****************** ID ********************** */
+/* ****************** navbar ********************** */
+.navi-bar {
+  padding: 50px 0 70px 130px;
+}
+
+.nav-logo {
+  width: 7%;
+}
+
+.logo-name {
+  font-size: 2rem;
+  display: inline-block;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin-left: 10px;
+  position: relative;
+  top: 5px;
+}
+
+.green-u {
+  color: #08b871;
+}
+
+.blue-k {
+  color: #2862b9;
+}
+
+/* ****************** Main-section ********************** */
+#main-container {
+  padding: 0 80px 0 115px;
+  margin: 0;
+  margin-bottom: 100px
+}
+
+.main-heading {
+  color: #1e9aaa;
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0;
+}
+
+.main-heading-p1 {
+  font-weight: 300;
+}
+
+.main-heading-p2 {
+  color: black;
+  font-weight: 400;
+}
+
+.description {
+  line-height: 2;
+  font-size: 1.1rem;
+  width: 88%;
+  font-family: "Roboto", sans-serif;
+  margin-left: 7px;
+}
+
+/* ****************** Main-section (IMAGES) ********************** */
+.img-size {
+  width: 90%;
+  height: 500px;
+  position: relative;
+  left: 50px;
+  margin: auto 0;
+  vertical-align: middle;
+}
+
+/* ****************** Main-section (Form) ********************** */
+input {
+  font-size: 18px;
+  padding: 0px 10px 10px 5px;
+  width: 45%;
+  border: none;
+  border-bottom: 1px solid #757575;
+  background-color: transparent;
+}
+
+.name {
+  padding-top: 0px;
+}
+
+.btn {
+  background: #2862b9;
+  background-image: -webkit-linear-gradient(top, #2862b9);
+  background-image: -moz-linear-gradient(top, #2862b9);
+  background-image: -ms-linear-gradient(top, #2862b9);
+  background-image: -o-linear-gradient(top, #2862b9);
+  background-image: linear-gradient(to bottom, #2862b9);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 47% 10px 43%;
+  text-decoration: none;
+  margin: 20px 0 0 0;
+}
+
+.btn:hover {
+  background: #08b871;
+  text-decoration: none;
+}
+
+/* ****************** Main-section (Form)---> Messages ********************** */
+.msg {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1.1rem;
+  width: 90%;
+}
+
+#success-msg {
+  display: none;
+  margin: 10px 0;
+}
+
+/* ****************** Footer Section ********************** */
+.white-section {
+  background-color: #5beba0;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.footer-message {
+  padding: 10px 0;
+}
+
+.icon-size {
+  transform: scale(1.5);
+  color: black;
+  padding: 10px 20px 20px 20px;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+/* ****************** call to action ********************** */
+@media (max-width: 800px) {
+  .nav-logo {
+    width: 10%;
+  }
+
+  .navi-bar {
+    text-align: center;
+    margin: 0;
+    padding: 50px 0 100px 0;
+  }
+
+  .main-heading {
+    text-align: center;
+    letter-spacing: 8px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+  }
+
+  #main-container {
+    padding: 0;
+  }
+
+  .description-container {
+    text-align: center;
+    padding: 0 115px 0 115px;
+    margin: 0;
+    margin-bottom: 100px
+  }
+
+  .img-container {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 100px
+  }
+}
+
+@media (max-width: 1000px) {
+  #main-container {
+    padding: 0;
+  }
+
+  .description-container {
+    padding: 0 115px 0 115px;
+    margin: 0;
+    margin-bottom: 100px
+  }
+
+  .img-container {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 100px
+  }
+}
+
+@media (max-width: 1490px) {
+  input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #757575;
+    background-color: transparent;
+  }
+
+  #firstname {
+    margin: 0 0 25px 0;
+  }
+
+  #lastname {
+    margin-bottom: 10px;
+  }
+}
